@@ -22,6 +22,11 @@ Using ST-Link via Serial Wire debug mode, the program can be flashed onto the ST
 
 https://github.com/user-attachments/assets/1e935329-2498-4105-b1bf-f483a7316e35
 
+**References:**
+- For setting up SysTick properly: https://community.st.com/t5/stm32-mcus-embedded-software/i-know-sounds-dumb-but-how-do-you-configure-systick/td-p/377723
+- For setting up External Interrupts: https://deepbluembedded.com/stm32-external-interrupt-example-lab/
+- For setting up ADC: https://controllerstech.com/stm32-adc1-single-channel-polling-mode/
+
 ## Assembly:
 The PCB can be folded into a ring as shown below:
 
