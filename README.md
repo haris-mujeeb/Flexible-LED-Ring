@@ -1,6 +1,8 @@
 # 🌈 Flexible-LED-Ring
 
 A portable battery-powered LED Ring based on STM32.
+
+
 ## ✨ Features
 ### LED Control:
     🔘 First Button Press: Activates main LEDs to blink.
@@ -10,6 +12,10 @@ A portable battery-powered LED Ring based on STM32.
 ### 🔌 Charging Mechanism:
     ⚡ Utilizes pogo pins for easy connection and charging.
     💡 Charging LEDs illuminate when the pogo pins are connected and the battery is charging, turning off once fully charged.
+
+
+https://github.com/user-attachments/assets/664f258f-f0d6-4ddf-a007-7cb5bbc9106d
+
 
 ## 📊 Schematic:
 ![grafik](https://github.com/user-attachments/assets/20555b76-adcb-4200-9d99-c2b4ca056a9e)
