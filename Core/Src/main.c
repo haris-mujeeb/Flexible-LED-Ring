@@ -122,7 +122,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   uint16_t DELAY = 666;
   while (1) {
-	if (blinkFlag){
+	if (blinkFlag) {
 		HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
 		HAL_Delay(DELAY);  // delay 500 ms
 	} else {
@@ -305,7 +305,7 @@ static void MX_GPIO_Init(void)
 
   /*Configure GPIO pin : LED_Pin */
   GPIO_InitStruct.Pin = LED_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(LED_GPIO_Port, &GPIO_InitStruct);
