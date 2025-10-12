@@ -17,11 +17,6 @@ A portable battery-powered LED Ring based on STM32.
 https://github.com/user-attachments/assets/664f258f-f0d6-4ddf-a007-7cb5bbc9106d
 
 
-## 📊 Schematic:
-![grafik](https://github.com/user-attachments/assets/20555b76-adcb-4200-9d99-c2b4ca056a9e)
-
-## 🛠️ PCB Layout:
-![grafik](https://github.com/user-attachments/assets/004e336d-5b91-43aa-951f-7701e4d78efe)
 
 ## 💻 Code:
 Using ST-Link via Serial Wire debug mode, the program can be flashed onto the STM32G031J6M6 Microcontroller.
