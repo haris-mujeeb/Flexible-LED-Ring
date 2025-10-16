@@ -43,6 +43,7 @@ https://github.com/user-attachments/assets/1e935329-2498-4105-b1bf-f483a7316e35
 The PCB can be folded into a ring as shown below:
 
 <img src="https://github.com/user-attachments/assets/227f697d-9f54-4604-9b52-a2f7d8a9d130" alt="Assembly_1" width="500"/>
+
 **References:**
 - For setting up SysTick properly: https://community.st.com/t5/stm32-mcus-embedded-software/i-know-sounds-dumb-but-how-do-you-configure-systick/td-p/377723
 - For setting up External Interrupts: https://deepbluembedded.com/stm32-external-interrupt-example-lab/
