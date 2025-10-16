@@ -101,8 +101,13 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
     __HAL_RCC_ADC_CLK_ENABLE();
 
     __HAL_RCC_GPIOA_CLK_ENABLE();
+<<<<<<< Updated upstream:Core/Src/stm32g0xx_hal_msp.c
     /**ADC1 GPIO Configuration
     PA0     ------> ADC1_IN0
+=======
+    /**ADC GPIO Configuration
+    PA0-CK_IN     ------> ADC_IN0
+>>>>>>> Stashed changes:STM32_Code/DeepSleepTests/Core/Src/stm32l0xx_hal_msp.c
     */
     GPIO_InitStruct.Pin = GPIO_PIN_0;
     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
@@ -133,8 +138,13 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* hadc)
     /* Peripheral clock disable */
     __HAL_RCC_ADC_CLK_DISABLE();
 
+<<<<<<< Updated upstream:Core/Src/stm32g0xx_hal_msp.c
     /**ADC1 GPIO Configuration
     PA0     ------> ADC1_IN0
+=======
+    /**ADC GPIO Configuration
+    PA0-CK_IN     ------> ADC_IN0
+>>>>>>> Stashed changes:STM32_Code/DeepSleepTests/Core/Src/stm32l0xx_hal_msp.c
     */
     HAL_GPIO_DeInit(GPIOA, GPIO_PIN_0);
 
