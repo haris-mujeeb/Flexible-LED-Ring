@@ -45,10 +45,8 @@ The PCB can be folded into a ring as shown below:
 <img src="https://github.com/user-attachments/assets/227f697d-9f54-4604-9b52-a2f7d8a9d130" alt="Assembly_1" width="500"/>
 
 **References:**
-- For setting up SysTick properly: https://community.st.com/t5/stm32-mcus-embedded-software/i-know-sounds-dumb-but-how-do-you-configure-systick/td-p/377723
-- For setting up External Interrupts: https://deepbluembedded.com/stm32-external-interrupt-example-lab/
-- For setting up ADC: https://controllerstech.com/stm32-adc1-single-channel-polling-mode/
-- For power analysis: https://www.nordicsemi.com/Products/Development-hardware/Power-Profiler-Kit-2
+- For setting up SysTick properly: [see here](https://community.st.com/t5/stm32-mcus-embedded-software/i-know-sounds-dumb-but-how-do-you-configure-systick/td-p/377723)
+- For setting up External Interrupts: [see here](https://deepbluembedded.com/stm32-external-interrupt-example-lab/)
+- For setting up ADC: [see here](https://controllerstech.com/stm32-adc1-single-channel-polling-mode/)
+- For power analysis: [see here](https://www.nordicsemi.com/Products/Development-hardware/Power-Profiler-Kit-2)
 - For low-power core configuration (Scale 3, Stop Mode): See [STM32L011x4 Datasheet](https://www.st.com/resource/en/datasheet/stm32l011f4.pdf) and [RM0377 Reference Manual](https://www.st.com/resource/en/reference_manual/rm0377-ultralowpower-stm32l0x1-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
-
-
